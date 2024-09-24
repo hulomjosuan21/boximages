@@ -64,7 +64,7 @@ class AssignmentOne extends StatelessWidget {
           Container(
             width: 250,
             height: 250,
-            child: Image.asset("lib/images/img1.png",fit: BoxFit.contain,)
+            child: Image.asset("lib/images/img5.jpg",fit: BoxFit.cover,)
           ),
           Container(
             width: 125,
@@ -124,11 +124,11 @@ class AssignmentOne extends StatelessWidget {
               children: [
                 Container(
                   height: 125,
-                  child: Image.asset("lib/images/img1.png",fit: BoxFit.contain,),
+                  child: Image.asset("lib/images/img2.jpg",fit: BoxFit.cover,),
                 ),
                 Container(
                   height: 125,
-                  child: Image.asset("lib/images/img1.png",fit: BoxFit.contain,),
+                  child: Image.asset("lib/images/img3.jpg",fit: BoxFit.cover,),
                 )
               ],
             ),
@@ -141,7 +141,7 @@ class AssignmentOne extends StatelessWidget {
           Container(
             width: 250,
             height: 250,
-            child: Image.asset("lib/images/img1.png",fit: BoxFit.contain,)
+            child: Image.asset("lib/images/img4.jpg",fit: BoxFit.cover,)
           )
         ],
       ),
